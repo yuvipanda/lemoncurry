@@ -9,17 +9,9 @@
 <ul id="stories">
     {% for p in posts %}
    <li id="story">
-     <a href="{{settings.base_url}}{{ p.meta.permalink }}" rel="bookmark">{{ p.title|escape }}</a> 
-       <ul class='entry-tags'>
-    {% for t in p.meta.tags %}
-    <li>
-    <a rel="tag" href="{{settings.base_url}}tag/{{ t }}.html">{{ t }}</a>
-    </li>
-    {% endfor %}
-       </ul>
-          
-
-
+     <a href="{{settings.base_url}}{{ p.meta.permalink }}" rel="bookmark">{{ p.title|escape }}</a>          
+     <small>{{p.meta.subtitle}}</small>
+     <small style="font-variant:small-caps;font-size:smaller;color:lightgrey;">{{p.meta.published.strftime("%d %B %y")}}</small>
    </li>
     {% endfor %}
 </ul>

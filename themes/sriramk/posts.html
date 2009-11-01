@@ -11,6 +11,7 @@
    <li id="story">
      <a href="{{settings.base_url}}{{ p.meta.permalink }}" rel="bookmark">{{ p.title|escape }}</a>          
      <small>{{p.meta.subtitle}}</small>
+     <small style="font-variant:small-caps;font-size:smaller;color:grey;">{{p.meta.published.strftime("%d %B %y")}}</small>
    </li>
     {% endfor %}
 </ul>
