@@ -1,10 +1,10 @@
 theme: sriramk
 name: Lemon Curry
 tagline: Stories from Yuvi
-base_url: file:///home/yuvipanda/lemoncurry/out/
+base_url: http://yuvi.in/stories/
 
 ga_id: UA-970897-4
-feedburner_url: http://feeds.feedburner.com/Yuvisense/
+feedburner_url: http://feeds.feedburner.com/l/
 
 blocks:
     - about-me
