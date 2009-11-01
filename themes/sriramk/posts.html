@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% from "macros.html" import single_post %}
+
+{% block title %}
+{{ title }}
+{% endblock %}
+
+{% block content %}
+<ul id="stories">
+    {% for p in posts %}
+   <li id="story">
+     <a href="{{settings.base_url}}{{ p.meta.permalink }}" rel="bookmark">{{ p.title|escape }}</a>          
+     <small>{{p.meta.subtitle}}</small>
+   </li>
+    {% endfor %}
+</ul>
+{% endblock %}

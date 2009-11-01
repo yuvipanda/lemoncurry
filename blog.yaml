@@ -1,0 +1,20 @@
+theme: sriramk
+name: Lemon Curry
+tagline: Stories from Yuvi
+base_url: file:///home/yuvipanda/lemoncurry/out/
+
+ga_id: UA-970897-4
+feedburner_url: http://feeds.feedburner.com/Yuvisense/
+
+blocks:
+    - about-me
+    - me-on-the-web
+    - flair
+    - last-fm    
+
+nav-links:
+    - About Me: http://yuvi.in/blog/about-me.html
+    - Archives: http://yuvi.in/blog/archives.html
+    - My Code: http://github.com/yuvipanda
+    - My Photos: http://flickr.com/yuvi
+    
